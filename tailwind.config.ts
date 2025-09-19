@@ -49,16 +49,6 @@ export default {
         },
         "pdf-bg": "hsl(var(--pdf-bg))",
         "pdf-border": "hsl(var(--pdf-border))",
-        sidebar: {
-          DEFAULT: "hsl(var(--sidebar-background))",
-          foreground: "hsl(var(--sidebar-foreground))",
-          primary: "hsl(var(--sidebar-primary))",
-          "primary-foreground": "hsl(var(--sidebar-primary-foreground))",
-          accent: "hsl(var(--sidebar-accent))",
-          "accent-foreground": "hsl(var(--sidebar-accent-foreground))",
-          border: "hsl(var(--sidebar-border))",
-          ring: "hsl(var(--sidebar-ring))",
-        },
       },
       borderRadius: {
         lg: "var(--radius)",
@@ -106,12 +96,6 @@ export default {
         "accordion-up": "accordion-up 0.2s ease-out",
         "fade-in": "fade-in 0.3s ease-out",
         "slide-up": "slide-up 0.3s ease-out",
-      },
-      spacing: {
-        "sidebar": "var(--sidebar-width)",
-        "chat": "var(--chat-width)",
-        "topbar": "var(--topbar-height)",
-        "statusbar": "var(--statusbar-height)",
       },
       backgroundImage: {
         "gradient-primary": "var(--gradient-primary)",
