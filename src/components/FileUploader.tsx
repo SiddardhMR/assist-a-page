@@ -44,7 +44,7 @@ export function FileUploader({
         const pdfDoc = await pdfManager.loadDocument(file);
         
         // Upload to backend (in mock mode this will return immediately)
-        const uploadResult = await apiClient.upload(file);
+        await apiClient.upload(file);
         
         // Add to app state
         const newFile = {
